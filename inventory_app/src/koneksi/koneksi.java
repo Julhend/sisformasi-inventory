@@ -18,7 +18,7 @@ public class koneksi {
         
         String url ="jdbc:mysql://127.0.0.1:3306/inventory-app?zeroDateTimeBehavior=convertToNull&serverTimezone=UTC";
         try {
-            koneksi = DriverManager.getConnection(url,"root","Julhendri@123");
+            koneksi = DriverManager.getConnection(url,"root","");
             System.out.println("Berhasil Koneksi Database");
         }   catch (SQLException ex){
             System.out.println("Gagal Koneksi Database "+ex);
