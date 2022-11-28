@@ -60,7 +60,7 @@ public class dataGudang extends javax.swing.JDialog {
     
     
     public void dataTable(){
-        Object[] Baris = {"No","Tanggal","Kode Gudang","Nama Gudang","Alamat","Keterangan"};
+        Object[] Baris = {"No","Tanggal","Kode Customer","Nama Customer","Alamat","Keterangan"};
         tabmode = new DefaultTableModel(null, Baris);
         tabelGudang.setModel(tabmode);
         String sql = "select * from tb_gudang order by kode_gudang asc";
@@ -99,7 +99,7 @@ public class dataGudang extends javax.swing.JDialog {
     }
     
     public void pencarian(String sql){
-        Object[] Baris = {"No","Tanggal","Kode Gudang","Nama Gudang","Alamat","Keterangan"};
+        Object[] Baris = {"No","Tanggal","Kode Customer","Nama Customer","Alamat","Keterangan"};
         tabmode = new DefaultTableModel(null, Baris);
         tabelGudang.setModel(tabmode);
         int brs = tabelGudang.getRowCount();
@@ -214,7 +214,7 @@ public class dataGudang extends javax.swing.JDialog {
 
         labelNama.setBackground(new java.awt.Color(102, 255, 204));
         labelNama.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        labelNama.setText("Data Gudang");
+        labelNama.setText("Data Customer");
 
         javax.swing.GroupLayout panelHeaderLayout = new javax.swing.GroupLayout(panelHeader);
         panelHeader.setLayout(panelHeaderLayout);
@@ -242,12 +242,12 @@ public class dataGudang extends javax.swing.JDialog {
 
         labelKodeGudang.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         labelKodeGudang.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
-        labelKodeGudang.setText("Kode Gudang");
+        labelKodeGudang.setText("Kode Customer");
         labelKodeGudang.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
 
         labelNamaGudang.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         labelNamaGudang.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
-        labelNamaGudang.setText("Nama Gudang");
+        labelNamaGudang.setText("Nama Customer");
         labelNamaGudang.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
 
         labelAlamat.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
@@ -655,11 +655,11 @@ public class dataGudang extends javax.swing.JDialog {
 
     private void btnSimpanActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSimpanActionPerformed
         if(txtKodeGudang.getText().equals("")){
-            JOptionPane.showMessageDialog(null, "Kode Gudang tidak boleh kosong");
+            JOptionPane.showMessageDialog(null, "Kode Customer tidak boleh kosong");
         } else if (txtNamaGudang.getText().equals("")){
-            JOptionPane.showMessageDialog(null, "Nama Gudang tidak boleh kosong");
+            JOptionPane.showMessageDialog(null, "Nama Customer tidak boleh kosong");
         } else if (txtAlamat.getText().equals("")){
-            JOptionPane.showMessageDialog(null, "Alamat Gudang tidak boleh kosong");
+            JOptionPane.showMessageDialog(null, "Alamat Custmoer tidak boleh kosong");
         } else {
         String sql = "insert into tb_gudang values (?,?,?,?,?)";
         String tampilan = "dd-MM-yyyy";

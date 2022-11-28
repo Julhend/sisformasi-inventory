@@ -351,7 +351,7 @@ public class menuUtama extends javax.swing.JFrame {
 
         btnDataGudang.setBackground(new java.awt.Color(197, 248, 248));
         btnDataGudang.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
-        btnDataGudang.setText("  > Data Gudang");
+        btnDataGudang.setText("  > Data Customer");
         btnDataGudang.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         btnDataGudang.setContentAreaFilled(false);
         btnDataGudang.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
