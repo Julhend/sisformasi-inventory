@@ -37,11 +37,11 @@ WHERE
 	<title>
 		<band height="59" splitType="Stretch">
 			<staticText>
-				<reportElement style="Title" x="150" y="0" width="263" height="33" uuid="dd28d7c1-3944-47ff-82b7-ca087f27dcc8"/>
+				<reportElement style="Title" x="102" y="0" width="311" height="33" uuid="dd28d7c1-3944-47ff-82b7-ca087f27dcc8"/>
 				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font size="20"/>
 				</textElement>
-				<text><![CDATA[PT Focon Indo Beton]]></text>
+				<text><![CDATA[PT PRIMA BINTANG PERMATA]]></text>
 			</staticText>
 			<staticText>
 				<reportElement style="SubTitle" x="180" y="33" width="174" height="22" forecolor="#000000" uuid="362139ce-a1b5-4841-83b3-adb3b596ccc2"/>
@@ -50,10 +50,6 @@ WHERE
 				</textElement>
 				<text><![CDATA[Barang Masuk]]></text>
 			</staticText>
-			<image>
-				<reportElement x="446" y="0" width="107" height="55" uuid="dc394bba-05cb-4e2e-b5f6-da34ee0498fa"/>
-				<imageExpression><![CDATA["C:\\focon\\src\\images\\logo2.png"]]></imageExpression>
-			</image>
 		</band>
 	</title>
 	<pageHeader>
@@ -93,14 +89,14 @@ WHERE
 				<textElement>
 					<font size="11"/>
 				</textElement>
-				<text><![CDATA[Kode Part]]></text>
+				<text><![CDATA[Kode Barang]]></text>
 			</staticText>
 			<staticText>
 				<reportElement style="Column header" x="130" y="59" width="175" height="15" forecolor="#000000" uuid="ea6e7957-f629-4bca-9522-bf059507c725"/>
 				<textElement>
 					<font size="11"/>
 				</textElement>
-				<text><![CDATA[Nama Part]]></text>
+				<text><![CDATA[Nama Barang]]></text>
 			</staticText>
 			<staticText>
 				<reportElement style="Column header" x="305" y="59" width="90" height="15" forecolor="#000000" uuid="83872370-edd8-4ba4-9672-c7de292b4ff3"/>
@@ -217,7 +213,7 @@ WHERE
 				<textElement textAlignment="Center">
 					<font size="10"/>
 				</textElement>
-				<text><![CDATA[Kepala Gudang]]></text>
+				<text><![CDATA[Hormat Kami]]></text>
 			</staticText>
 			<staticText>
 				<reportElement style="Column header" x="433" y="75" width="103" height="15" forecolor="#000000" uuid="6f97f55a-5b9e-44eb-9dbb-f64389c3aab4"/>
@@ -234,8 +230,8 @@ WHERE
 				<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
 			</textField>
 			<staticText>
-				<reportElement x="403" y="4" width="40" height="14" uuid="23dde37c-a110-4b54-8ea0-a4b2133e2f99"/>
-				<text><![CDATA[Jakarta,]]></text>
+				<reportElement x="367" y="4" width="76" height="14" uuid="23dde37c-a110-4b54-8ea0-a4b2133e2f99"/>
+				<text><![CDATA[Tanjung Pinang]]></text>
 			</staticText>
 		</band>
 	</columnFooter>

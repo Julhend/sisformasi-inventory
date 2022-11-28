@@ -65,7 +65,7 @@ public class laporanBarangKeluar extends javax.swing.JDialog {
     
     
     public void dataTable(){
-        Object[] Baris = {"No","Tanggal","ID BK","Gudang","Kode Part","Nama Part","Qty","Keterangan"};
+        Object[] Baris = {"No","Tanggal","ID BK","Customer","Kode Part","Nama Part","Qty","Keterangan"};
         tabmode = new DefaultTableModel(null, Baris);
         tabelBarangKeluar.setModel(tabmode);   
     }
@@ -93,7 +93,7 @@ public class laporanBarangKeluar extends javax.swing.JDialog {
     
 
     public void pencarian(String sql){
-        Object[] Baris = {"No","Tanggal","ID BK","Gudang","Kode Part","Nama Part","Qty","Keterangan"};
+        Object[] Baris = {"No","Tanggal","ID BK","Customer","Kode Part","Nama Part","Qty","Keterangan"};
         tabmode = new DefaultTableModel(null, Baris);
         tabelBarangKeluar.setModel(tabmode);
         int brs = tabelBarangKeluar.getRowCount();

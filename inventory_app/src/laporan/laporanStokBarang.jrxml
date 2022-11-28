@@ -29,16 +29,12 @@ FROM
 	</background>
 	<title>
 		<band height="72" splitType="Stretch">
-			<image>
-				<reportElement x="446" y="0" width="107" height="55" uuid="9f2e6c59-e102-492d-8231-026818f9bc6e"/>
-				<imageExpression><![CDATA["C:\\focon\\src\\images\\logo2.png"]]></imageExpression>
-			</image>
 			<staticText>
-				<reportElement style="Title" x="131" y="0" width="264" height="33" uuid="422afe78-f045-4dd4-af57-8efe2a92b688"/>
+				<reportElement style="Title" x="93" y="0" width="302" height="33" uuid="422afe78-f045-4dd4-af57-8efe2a92b688"/>
 				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font size="20"/>
 				</textElement>
-				<text><![CDATA[PT Focon Indo Beton]]></text>
+				<text><![CDATA[PT PRIMA BINTANG PERMATA]]></text>
 			</staticText>
 			<staticText>
 				<reportElement style="SubTitle" mode="Transparent" x="131" y="33" width="277" height="22" forecolor="#000000" uuid="503b75e6-dcb2-436a-8de1-7495aa209355"/>
@@ -115,7 +111,7 @@ FROM
 		</band>
 	</columnHeader>
 	<detail>
-		<band height="21" splitType="Stretch">
+		<band height="16" splitType="Stretch">
 			<line>
 				<reportElement positionType="FixRelativeToBottom" x="0" y="15" width="555" height="1" uuid="7e0647c0-6907-4c56-83c0-404d78ac4967"/>
 				<graphicElement>
@@ -180,7 +176,7 @@ FROM
 				<textElement textAlignment="Center">
 					<font isBold="true"/>
 				</textElement>
-				<text><![CDATA[Kepala Gudang]]></text>
+				<text><![CDATA[Hormat Kami]]></text>
 			</staticText>
 			<staticText>
 				<reportElement x="408" y="93" width="103" height="15" uuid="5a6fd58b-457f-4816-bc5e-727a86c27415"/>
@@ -190,8 +186,8 @@ FROM
 				<text><![CDATA[(                                  )]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="406" y="3" width="40" height="14" uuid="b920599c-7ce5-4769-8cb7-322214ee5083"/>
-				<text><![CDATA[Jakarta,]]></text>
+				<reportElement x="373" y="3" width="73" height="14" uuid="b920599c-7ce5-4769-8cb7-322214ee5083"/>
+				<text><![CDATA[Tanjung Pinang]]></text>
 			</staticText>
 			<textField pattern="EEEEE dd MMMMM yyyy">
 				<reportElement style="Column header" x="446" y="3" width="106" height="15" forecolor="#000000" uuid="a635d402-0034-4afd-85b7-3da973780d22"/>

@@ -44,10 +44,6 @@ tb_detail_brg_keluar.id_bk = $P{id_bk}]]>
 				</textElement>
 				<text><![CDATA[Barang Keluar]]></text>
 			</staticText>
-			<image>
-				<reportElement x="446" y="0" width="107" height="55" uuid="83f0f0a5-b52e-4c5f-afea-068331709c1f"/>
-				<imageExpression><![CDATA["C:\\focon\\src\\images\\logo2.png"]]></imageExpression>
-			</image>
 		</band>
 	</pageHeader>
 	<columnHeader>
@@ -99,7 +95,7 @@ tb_detail_brg_keluar.id_bk = $P{id_bk}]]>
 				<textElement verticalAlignment="Middle">
 					<font fontName="Arial" size="11" isBold="true"/>
 				</textElement>
-				<text><![CDATA[Gudang]]></text>
+				<text><![CDATA[Customer]]></text>
 			</staticText>
 			<staticText>
 				<reportElement x="413" y="13" width="12" height="15" uuid="eee057ac-ef4d-43e8-9db5-efc05ba6ef17"/>
@@ -133,14 +129,14 @@ tb_detail_brg_keluar.id_bk = $P{id_bk}]]>
 				<textElement verticalAlignment="Top">
 					<font fontName="Arial" size="11" isBold="true"/>
 				</textElement>
-				<text><![CDATA[Kode Part]]></text>
+				<text><![CDATA[Kode Barang]]></text>
 			</staticText>
 			<staticText>
 				<reportElement x="130" y="59" width="175" height="15" uuid="42621b86-6288-4f73-a81d-2fe5603b903f"/>
 				<textElement verticalAlignment="Top">
 					<font fontName="Arial" size="11" isBold="true"/>
 				</textElement>
-				<text><![CDATA[Nama Part]]></text>
+				<text><![CDATA[Nama Barang]]></text>
 			</staticText>
 			<staticText>
 				<reportElement x="305" y="59" width="90" height="15" uuid="2298d382-8c60-4795-af3a-6534c3b61d79"/>
@@ -206,7 +202,7 @@ tb_detail_brg_keluar.id_bk = $P{id_bk}]]>
 				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font fontName="Arial" size="10" isBold="true"/>
 				</textElement>
-				<text><![CDATA[Kepala Gudang]]></text>
+				<text><![CDATA[Hormat Kami]]></text>
 			</staticText>
 			<staticText>
 				<reportElement x="435" y="76" width="103" height="15" uuid="ae27e7cc-b338-4cdc-a6d5-d033c2948760"/>
@@ -216,8 +212,8 @@ tb_detail_brg_keluar.id_bk = $P{id_bk}]]>
 				<text><![CDATA[(                               )]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="402" y="4" width="40" height="14" uuid="1045d3f5-ed19-40ae-9669-45a7e2e29ad8"/>
-				<text><![CDATA[Jakarta,]]></text>
+				<reportElement x="370" y="4" width="72" height="14" uuid="1045d3f5-ed19-40ae-9669-45a7e2e29ad8"/>
+				<text><![CDATA[Tanjung Pinang]]></text>
 			</staticText>
 			<textField pattern="EEEEE dd MMMMM yyyy">
 				<reportElement x="443" y="4" width="107" height="14" uuid="e607dba2-2ec6-47b5-ba07-eb53b4a9ca2d"/>

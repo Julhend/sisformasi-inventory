@@ -27,16 +27,12 @@ FROM
 	</background>
 	<title>
 		<band height="72" splitType="Stretch">
-			<image>
-				<reportElement x="446" y="0" width="107" height="55" uuid="9f2e6c59-e102-492d-8231-026818f9bc6e"/>
-				<imageExpression><![CDATA["C:\\focon\\src\\images\\logo2.png"]]></imageExpression>
-			</image>
 			<staticText>
-				<reportElement style="Title" x="131" y="0" width="264" height="33" uuid="422afe78-f045-4dd4-af57-8efe2a92b688"/>
+				<reportElement style="Title" x="115" y="0" width="303" height="33" uuid="422afe78-f045-4dd4-af57-8efe2a92b688"/>
 				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font size="20"/>
 				</textElement>
-				<text><![CDATA[PT Focon Indo Beton]]></text>
+				<text><![CDATA[PT PRIMA BINTANG PERMATA]]></text>
 			</staticText>
 			<staticText>
 				<reportElement style="SubTitle" mode="Transparent" x="131" y="33" width="277" height="22" forecolor="#000000" uuid="503b75e6-dcb2-436a-8de1-7495aa209355"/>
@@ -164,7 +160,7 @@ FROM
 				<textElement textAlignment="Center">
 					<font isBold="true"/>
 				</textElement>
-				<text><![CDATA[Kepala Gudang]]></text>
+				<text><![CDATA[Hormat Kami]]></text>
 			</staticText>
 			<staticText>
 				<reportElement x="409" y="93" width="103" height="15" uuid="5a6fd58b-457f-4816-bc5e-727a86c27415"/>
@@ -181,8 +177,8 @@ FROM
 				<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
 			</textField>
 			<staticText>
-				<reportElement x="405" y="3" width="40" height="14" uuid="b84b3bb6-f60f-4118-a7ec-f7878f4d151b"/>
-				<text><![CDATA[Jakarta,]]></text>
+				<reportElement x="373" y="3" width="72" height="14" uuid="b84b3bb6-f60f-4118-a7ec-f7878f4d151b"/>
+				<text><![CDATA[Tanjung Pinang]]></text>
 			</staticText>
 		</band>
 	</columnFooter>
